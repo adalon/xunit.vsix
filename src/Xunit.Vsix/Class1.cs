@@ -8,5 +8,7 @@ namespace Xunit
 {
     class Class1
     {
+
+
     }
 }
