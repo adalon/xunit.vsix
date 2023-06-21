@@ -8,6 +8,7 @@ namespace Xunit
     {
         void Recycle();
 
+
         Task<RunSummary> RunAsync(VsixTestCase testCase, IMessageBus messageBus, ExceptionAggregator aggregator);
     }
 }
