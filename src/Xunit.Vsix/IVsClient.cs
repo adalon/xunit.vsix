@@ -12,6 +12,9 @@ namespace Xunit
 
 
 
+
+
+
         Task<RunSummary> RunAsync(VsixTestCase testCase, IMessageBus messageBus, ExceptionAggregator aggregator);
     }
 }

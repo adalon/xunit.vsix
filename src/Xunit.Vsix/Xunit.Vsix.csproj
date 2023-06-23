@@ -31,6 +31,8 @@
 
   <ItemGroup>
     <None Remove="@(PackageFile)" />
+    <None Remove="IVsClient.md" />
+    <Compile Include="IVsClient.md" />
     <None Include="build\xunit.runner.json" />
     <None Include="build\xunit.vsix.props" />
     <None Include="build\xunit.vsix.targets" />
